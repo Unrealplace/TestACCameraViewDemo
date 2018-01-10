@@ -15,7 +15,7 @@
 
 - (void)switchCamera:(ACCameraTopView*)cameraTopView;
 
-- (void)sharkStart:(ACCameraTopView*)cameraTopView;
+- (void)sharkStart:(ACCameraTopView*)cameraTopView sharkBtn:(UIButton*)btn;
 
 @end
 @interface ACCameraTopView : UIView

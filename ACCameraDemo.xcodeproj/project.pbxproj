@@ -190,7 +190,6 @@
 		B6558D3120050D600080F26C /* LMHahaFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = B6558D2E20050D600080F26C /* LMHahaFilters.m */; };
 		B6558D3420050D7F0080F26C /* UBLookupEffectFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = B6558D3320050D7F0080F26C /* UBLookupEffectFilter.m */; };
 		B6558D3720050DB00080F26C /* LMBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = B6558D3620050DB00080F26C /* LMBeautifyFilter.m */; };
-		B6558D3A2005117F0080F26C /* ACCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6558D392005117F0080F26C /* ACCameraView.m */; };
 		B6558D3F200512390080F26C /* ACCameraBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6558D3C200512390080F26C /* ACCameraBottomView.m */; };
 		B6558D40200512390080F26C /* ACCameraTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6558D3D200512390080F26C /* ACCameraTopView.m */; };
 		B6558D44200516700080F26C /* UIView+ACCameraFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = B6558D42200516700080F26C /* UIView+ACCameraFrame.m */; };
@@ -559,8 +558,6 @@
 		B6558D3320050D7F0080F26C /* UBLookupEffectFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBLookupEffectFilter.m; sourceTree = "<group>"; };
 		B6558D3520050DB00080F26C /* LMBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMBeautifyFilter.h; sourceTree = "<group>"; };
 		B6558D3620050DB00080F26C /* LMBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMBeautifyFilter.m; sourceTree = "<group>"; };
-		B6558D382005117F0080F26C /* ACCameraView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACCameraView.h; sourceTree = "<group>"; };
-		B6558D392005117F0080F26C /* ACCameraView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACCameraView.m; sourceTree = "<group>"; };
 		B6558D3B200512390080F26C /* ACCameraBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACCameraBottomView.h; sourceTree = "<group>"; };
 		B6558D3C200512390080F26C /* ACCameraBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACCameraBottomView.m; sourceTree = "<group>"; };
 		B6558D3D200512390080F26C /* ACCameraTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACCameraTopView.m; sourceTree = "<group>"; };
@@ -998,8 +995,6 @@
 				B6558D2820050D600080F26C /* LMFilter */,
 				B6558D2220050C740080F26C /* ACCameraViewController.h */,
 				B6558D2320050C740080F26C /* ACCameraViewController.m */,
-				B6558D382005117F0080F26C /* ACCameraView.h */,
-				B6558D392005117F0080F26C /* ACCameraView.m */,
 				B6558D3B200512390080F26C /* ACCameraBottomView.h */,
 				B6558D3C200512390080F26C /* ACCameraBottomView.m */,
 				B6558D3E200512390080F26C /* ACCameraTopView.h */,
@@ -1125,7 +1120,6 @@
 				B6558CCB20050C430080F26C /* GPUImageLuminanceRangeFilter.m in Sources */,
 				B6558D3020050D600080F26C /* LMFilterGroup.m in Sources */,
 				B6558C9B20050C430080F26C /* GPUImageDilationFilter.m in Sources */,
-				B6558D3A2005117F0080F26C /* ACCameraView.m in Sources */,
 				B6558CA620050C430080F26C /* GPUImageFilter.m in Sources */,
 				B6558D0B20050C440080F26C /* GPUImageToneCurveFilter.m in Sources */,
 				B6558CCC20050C430080F26C /* GPUImageLuminanceThresholdFilter.m in Sources */,
@@ -1419,7 +1413,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H57Q7L6C8G;
+				DEVELOPMENT_TEAM = 9BQNL96S8U;
 				INFOPLIST_FILE = ACCameraDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1434,7 +1428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H57Q7L6C8G;
+				DEVELOPMENT_TEAM = 9BQNL96S8U;
 				INFOPLIST_FILE = ACCameraDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

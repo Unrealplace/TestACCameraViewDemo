@@ -79,8 +79,8 @@
     }
 }
 - (void)sharkBtnClick:(UIButton*)btn {
-    if (self.delegate && [self.delegate respondsToSelector:@selector(sharkStart:)]) {
-        [self.delegate sharkStart:self];
+    if (self.delegate && [self.delegate respondsToSelector:@selector(sharkStart:sharkBtn:)]) {
+        [self.delegate sharkStart:self sharkBtn:btn];
     }
 }
 - (void)switchCameraBtnClick:(UIButton*)btn {
